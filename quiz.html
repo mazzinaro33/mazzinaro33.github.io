@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+<meta charset= "utf-8">
+<title>CSCE 102 Project</title>
+<link rel= "stylesheet" href= "styles.css">
+<!--Michaela Azzinaro CSCE 102 Section 14 2/15/2023-->
+</head>
+<body>
+	<div id="content">
+		<header><h1>Michaela Azzinaro</h1></header>
+		<nav id="main-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="quiz.html">Quiz</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+			</nav>
+		<main>
+						<p>
+					<label for="txt-css"><strong>What does CSS stand for?</strong></label>
+					<select id="txt-css">
+					<option>Creative Style Sheets</option>
+					<option>Cascading Style Sheets</option>
+					<option>Coloring Style Sheets</option>
+					<option>Computer Style Sheets</option>
+					</select>
+				</p>
+				<p>
+					<label for="txt-padding"><strong>When do you use padding?</strong></label>
+					<select id="txt-padding">
+					<option>Tables</option>
+					<option>Buttons</option>
+					<option>Nav</option>
+					<option>Main</option>
+					<option>All of the above</option>
+					</select>
+					</p>
+						<p>
+					<label for="txt-value"><strong>What specific word gets text out of a text box?</strong></label>
+					<select id="txt-value">
+					<option>Receive</option>
+					<option>Text</option>
+					<option>Attach</option>
+					<option>Value</option>
+					</select>
+					</p>
+						<p>
+					<label for="txt-strong"><strong>What does the strong tag do?</strong></label>
+					<select id="txt-strong">
+					<option>Bold</option>
+					<option>Underline</option>
+					<option>Italics</option>
+					<option>Nothing</option>
+					</select>
+					</p>
+				<br><button id="btn-submit" onclick="showScore()">Submit</button></br>
+				<section id="details" class="hidden">
+					<h3>Quiz Results</h3>
+					<p id="first"><strong>Question 1-</strong></p>
+					<p id="second"><strong>Question 2-</strong></p>
+					<p id="third"><strong>Question 3-</strong></p>
+					<p id="fourth"><strong>Question 4-</strong></p>
+					<p id="score"><strong>Score:</strong></p>
+				</section>
+		</main>
+		<footer>
+			<p>&copy; Michaela's copywrite</p>
+		</footer>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
